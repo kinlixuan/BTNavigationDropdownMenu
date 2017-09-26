@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B11A6361F0C12F500CB4A0B /* BTNavigationDropdownMenu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0B11A62C1F0C12F500CB4A0B /* BTNavigationDropdownMenu.bundle */; };
+		0B11A6371F0C12F500CB4A0B /* BTNavigationDropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B11A62D1F0C12F500CB4A0B /* BTNavigationDropdownMenu.swift */; };
+		0B11A6381F0C12F500CB4A0B /* BTTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B11A62E1F0C12F500CB4A0B /* BTTitle.swift */; };
+		0B11A6391F0C12F500CB4A0B /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B11A6301F0C12F500CB4A0B /* UIViewController+Extension.swift */; };
+		0B11A63A1F0C12F500CB4A0B /* BTConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B11A6321F0C12F500CB4A0B /* BTConfiguration.swift */; };
+		0B11A63B1F0C12F500CB4A0B /* BTTableCellContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B11A6331F0C12F500CB4A0B /* BTTableCellContentView.swift */; };
+		0B11A63C1F0C12F500CB4A0B /* BTTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B11A6341F0C12F500CB4A0B /* BTTableView.swift */; };
+		0B11A63D1F0C12F500CB4A0B /* BTTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B11A6351F0C12F500CB4A0B /* BTTableViewCell.swift */; };
+		0B11A63F1F0C131A00CB4A0B /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B11A63E1F0C131A00CB4A0B /* UIView+Extension.swift */; };
 		2E44D6AA1B4C326300C9C49E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E44D6A91B4C326300C9C49E /* AppDelegate.swift */; };
 		2E44D6AC1B4C326300C9C49E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E44D6AB1B4C326300C9C49E /* ViewController.swift */; };
 		2E44D6AF1B4C326300C9C49E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E44D6AD1B4C326300C9C49E /* Main.storyboard */; };
 		2E44D6B11B4C326300C9C49E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E44D6B01B4C326300C9C49E /* Images.xcassets */; };
 		2E44D6B41B4C326300C9C49E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E44D6B21B4C326300C9C49E /* LaunchScreen.xib */; };
-		2E44D6C01B4C326300C9C49E /* DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E44D6BF1B4C326300C9C49E /* DemoTests.swift */; };
-		2E44D6CC1B4C336600C9C49E /* BTNavigationDropdownMenu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2E44D6CA1B4C336600C9C49E /* BTNavigationDropdownMenu.bundle */; };
-		2E44D6CD1B4C336600C9C49E /* BTNavigationDropdownMenu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2E44D6CA1B4C336600C9C49E /* BTNavigationDropdownMenu.bundle */; };
-		2E44D6CE1B4C336600C9C49E /* BTNavigationDropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E44D6CB1B4C336600C9C49E /* BTNavigationDropdownMenu.swift */; };
-		2E44D6CF1B4C336600C9C49E /* BTNavigationDropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E44D6CB1B4C336600C9C49E /* BTNavigationDropdownMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +34,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B11A62C1F0C12F500CB4A0B /* BTNavigationDropdownMenu.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BTNavigationDropdownMenu.bundle; sourceTree = "<group>"; };
+		0B11A62D1F0C12F500CB4A0B /* BTNavigationDropdownMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTNavigationDropdownMenu.swift; sourceTree = "<group>"; };
+		0B11A62E1F0C12F500CB4A0B /* BTTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTTitle.swift; sourceTree = "<group>"; };
+		0B11A6301F0C12F500CB4A0B /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		0B11A6321F0C12F500CB4A0B /* BTConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTConfiguration.swift; sourceTree = "<group>"; };
+		0B11A6331F0C12F500CB4A0B /* BTTableCellContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTTableCellContentView.swift; sourceTree = "<group>"; };
+		0B11A6341F0C12F500CB4A0B /* BTTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTTableView.swift; sourceTree = "<group>"; };
+		0B11A6351F0C12F500CB4A0B /* BTTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTTableViewCell.swift; sourceTree = "<group>"; };
+		0B11A63E1F0C131A00CB4A0B /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		2E44D6A41B4C326300C9C49E /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E44D6A81B4C326300C9C49E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E44D6A91B4C326300C9C49E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,9 +52,6 @@
 		2E44D6B31B4C326300C9C49E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2E44D6B91B4C326300C9C49E /* DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E44D6BE1B4C326300C9C49E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E44D6BF1B4C326300C9C49E /* DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTests.swift; sourceTree = "<group>"; };
-		2E44D6CA1B4C336600C9C49E /* BTNavigationDropdownMenu.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BTNavigationDropdownMenu.bundle; sourceTree = "<group>"; };
-		2E44D6CB1B4C336600C9C49E /* BTNavigationDropdownMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTNavigationDropdownMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +72,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B11A62B1F0C12F500CB4A0B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				0B11A62C1F0C12F500CB4A0B /* BTNavigationDropdownMenu.bundle */,
+				0B11A62D1F0C12F500CB4A0B /* BTNavigationDropdownMenu.swift */,
+				0B11A62E1F0C12F500CB4A0B /* BTTitle.swift */,
+				0B11A62F1F0C12F500CB4A0B /* Extension */,
+				0B11A6311F0C12F500CB4A0B /* Internal */,
+			);
+			name = Source;
+			path = ../Source;
+			sourceTree = "<group>";
+		};
+		0B11A62F1F0C12F500CB4A0B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0B11A6301F0C12F500CB4A0B /* UIViewController+Extension.swift */,
+				0B11A63E1F0C131A00CB4A0B /* UIView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0B11A6311F0C12F500CB4A0B /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				0B11A6321F0C12F500CB4A0B /* BTConfiguration.swift */,
+				0B11A6331F0C12F500CB4A0B /* BTTableCellContentView.swift */,
+				0B11A6341F0C12F500CB4A0B /* BTTableView.swift */,
+				0B11A6351F0C12F500CB4A0B /* BTTableViewCell.swift */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
 		2E44D69B1B4C326300C9C49E = {
 			isa = PBXGroup;
 			children = (
 				2E44D6A61B4C326300C9C49E /* Demo */,
 				2E44D6BC1B4C326300C9C49E /* DemoTests */,
-				2E44D6C91B4C336600C9C49E /* Source */,
 				2E44D6A51B4C326300C9C49E /* Products */,
+				0B11A62B1F0C12F500CB4A0B /* Source */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,12 +127,12 @@
 		2E44D6A61B4C326300C9C49E /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				2E44D6A71B4C326300C9C49E /* Supporting Files */,
 				2E44D6A91B4C326300C9C49E /* AppDelegate.swift */,
-				2E44D6AB1B4C326300C9C49E /* ViewController.swift */,
-				2E44D6AD1B4C326300C9C49E /* Main.storyboard */,
 				2E44D6B01B4C326300C9C49E /* Images.xcassets */,
 				2E44D6B21B4C326300C9C49E /* LaunchScreen.xib */,
-				2E44D6A71B4C326300C9C49E /* Supporting Files */,
+				2E44D6AD1B4C326300C9C49E /* Main.storyboard */,
+				2E44D6AB1B4C326300C9C49E /* ViewController.swift */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -99,13 +142,12 @@
 			children = (
 				2E44D6A81B4C326300C9C49E /* Info.plist */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		2E44D6BC1B4C326300C9C49E /* DemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				2E44D6BF1B4C326300C9C49E /* DemoTests.swift */,
 				2E44D6BD1B4C326300C9C49E /* Supporting Files */,
 			);
 			path = DemoTests;
@@ -116,17 +158,7 @@
 			children = (
 				2E44D6BE1B4C326300C9C49E /* Info.plist */,
 			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		2E44D6C91B4C336600C9C49E /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				2E44D6CA1B4C336600C9C49E /* BTNavigationDropdownMenu.bundle */,
-				2E44D6CB1B4C336600C9C49E /* BTNavigationDropdownMenu.swift */,
-			);
-			name = Source;
-			path = ../Source;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +171,7 @@
 				2E44D6A01B4C326300C9C49E /* Sources */,
 				2E44D6A11B4C326300C9C49E /* Frameworks */,
 				2E44D6A21B4C326300C9C49E /* Resources */,
+				51F397721E48A3BB0011B2A1 /* Run Script Lint */,
 			);
 			buildRules = (
 			);
@@ -175,14 +208,16 @@
 			attributes = {
 				LastSwiftMigration = 0700;
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "PHAM BA THO";
 				TargetAttributes = {
 					2E44D6A31B4C326300C9C49E = {
 						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0800;
 					};
 					2E44D6B81B4C326300C9C49E = {
 						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0800;
 						TestTargetID = 2E44D6A31B4C326300C9C49E;
 					};
 				};
@@ -214,7 +249,7 @@
 				2E44D6AF1B4C326300C9C49E /* Main.storyboard in Resources */,
 				2E44D6B41B4C326300C9C49E /* LaunchScreen.xib in Resources */,
 				2E44D6B11B4C326300C9C49E /* Images.xcassets in Resources */,
-				2E44D6CC1B4C336600C9C49E /* BTNavigationDropdownMenu.bundle in Resources */,
+				0B11A6361F0C12F500CB4A0B /* BTNavigationDropdownMenu.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,20 +257,43 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E44D6CD1B4C336600C9C49E /* BTNavigationDropdownMenu.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51F397721E48A3BB0011B2A1 /* Run Script Lint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script Lint";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2E44D6A01B4C326300C9C49E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B11A63A1F0C12F500CB4A0B /* BTConfiguration.swift in Sources */,
+				0B11A6381F0C12F500CB4A0B /* BTTitle.swift in Sources */,
 				2E44D6AC1B4C326300C9C49E /* ViewController.swift in Sources */,
-				2E44D6CE1B4C336600C9C49E /* BTNavigationDropdownMenu.swift in Sources */,
+				0B11A6371F0C12F500CB4A0B /* BTNavigationDropdownMenu.swift in Sources */,
+				0B11A6391F0C12F500CB4A0B /* UIViewController+Extension.swift in Sources */,
+				0B11A63F1F0C131A00CB4A0B /* UIView+Extension.swift in Sources */,
+				0B11A63D1F0C12F500CB4A0B /* BTTableViewCell.swift in Sources */,
+				0B11A63C1F0C12F500CB4A0B /* BTTableView.swift in Sources */,
 				2E44D6AA1B4C326300C9C49E /* AppDelegate.swift in Sources */,
+				0B11A63B1F0C12F500CB4A0B /* BTTableCellContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,8 +301,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E44D6C01B4C326300C9C49E /* DemoTests.swift in Sources */,
-				2E44D6CF1B4C336600C9C49E /* BTNavigationDropdownMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +321,7 @@
 				2E44D6AE1B4C326300C9C49E /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		2E44D6B21B4C326300C9C49E /* LaunchScreen.xib */ = {
@@ -273,6 +330,7 @@
 				2E44D6B31B4C326300C9C49E /* Base */,
 			);
 			name = LaunchScreen.xib;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -291,8 +349,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -336,8 +396,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -356,6 +418,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -364,11 +427,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Demo/Info.plist;
+				INFOPLIST_FILE = "Demo/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "phambatho.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -376,11 +440,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Demo/Info.plist;
+				INFOPLIST_FILE = "Demo/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "phambatho.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -393,10 +458,11 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = DemoTests/Info.plist;
+				INFOPLIST_FILE = "DemoTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "phambatho.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo.app/Demo";
 			};
 			name = Debug;
@@ -406,10 +472,11 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = DemoTests/Info.plist;
+				INFOPLIST_FILE = "DemoTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "phambatho.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo.app/Demo";
 			};
 			name = Release;
