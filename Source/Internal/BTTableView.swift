@@ -67,7 +67,7 @@ class BTTableView: UITableView, UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.items.count
+        return  self.configuration.shouldShowCurrentSelectedItem == true ? self.items.count : (self.items.count > 0 ? self.items.count - 1 : 0)
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -76,19 +76,30 @@ class BTTableView: UITableView, UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = BTTableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "Cell", configuration: self.configuration)
-        cell.textLabel?.text = self.items[(indexPath as NSIndexPath).row]
+        var title = self.items[(indexPath as NSIndexPath).row]
+        if self.selectedIndexPath != nil && self.configuration.shouldShowCurrentSelectedItem == false && indexPath.item >= selectedIndexPath! {
+            title = self.items[indexPath.item + 1]
+        }
+        
+        cell.textLabel?.text = title
         cell.checkmarkIcon.isHidden = ((indexPath as NSIndexPath).row == selectedIndexPath) ? false : true
         return cell
     }
     
     // Table view delegate
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        selectedIndexPath = (indexPath as NSIndexPath).row
-        self.selectRowAtIndexPathHandler!((indexPath as NSIndexPath).row)
+        let path = IndexPath.init(item: self.items.index(where: { (item) -> Bool in
+            return item == tableView.cellForRow(at: indexPath)?.textLabel?.text!
+        })!, section: 0)
+        selectedIndexPath = path.row
+        self.selectRowAtIndexPathHandler!(path.row)
         self.reloadData()
         let cell = tableView.cellForRow(at: indexPath) as? BTTableViewCell
-        cell?.contentView.backgroundColor = self.configuration.cellSelectionColor
-        cell?.textLabel?.textColor = self.configuration.selectedCellTextLabelColor
+        
+        if self.configuration.shouldShowCurrentSelectedItem == true {
+            cell?.contentView.backgroundColor = self.configuration.cellSelectionColor
+            cell?.textLabel?.textColor = self.configuration.selectedCellTextLabelColor
+        }
     }
     
     func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
@@ -99,7 +110,7 @@ class BTTableView: UITableView, UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        if self.configuration.shouldKeepSelectedCellColor == true {
+        if self.configuration.shouldKeepSelectedCellColor == true && self.configuration.shouldShowCurrentSelectedItem  {
             cell.backgroundColor = self.configuration.cellBackgroundColor
             cell.contentView.backgroundColor = ((indexPath as NSIndexPath).row == selectedIndexPath) ? self.configuration.cellSelectionColor : self.configuration.cellBackgroundColor
         }
