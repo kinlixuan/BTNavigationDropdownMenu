@@ -27,7 +27,7 @@
 import UIKit
 
 // MARK: BTNavigationDropdownMenu
-open class BTNavigationDropdownMenu: UIView {
+@objc open class BTNavigationDropdownMenu: UIView {
 
     // The color of menu title. Default is darkGrayColor()
     open var menuTitleColor: UIColor! {
@@ -69,7 +69,7 @@ open class BTNavigationDropdownMenu: UIView {
         }
     }
 
-    open var cellSeparatorColor: UIColor! {
+    @objc open var cellSeparatorColor: UIColor! {
         get {
             return self.configuration.cellSeparatorColor
         }
@@ -170,7 +170,7 @@ open class BTNavigationDropdownMenu: UIView {
     }
 
     // The arrow next to navigation title
-    open var arrowImage: UIImage! {
+    @objc open var arrowImage: UIImage! {
         get {
             return self.configuration.arrowImage
         }
@@ -230,7 +230,7 @@ open class BTNavigationDropdownMenu: UIView {
         }
     }
     
-    open var didSelectItemAtIndexHandler: ((_ indexPath: Int) -> ())?
+    @objc open var didSelectItemAtIndexHandler: ((_ indexPath: Int) -> ())?
     open var isShown: Bool!
 
     fileprivate weak var navigationController: UINavigationController?
@@ -258,7 +258,7 @@ open class BTNavigationDropdownMenu: UIView {
         - title: A string to define title to be displayed.
         - items: The array of items to select
      */
-    public convenience init(navigationController: UINavigationController? = nil, containerView: UIView = UIApplication.shared.keyWindow!, title: String, items: [String]) {
+    @objc public convenience init(navigationController: UINavigationController? = nil, containerView: UIView = UIApplication.shared.keyWindow!, title: String, items: [String]) {
 
         self.init(navigationController: navigationController, containerView: containerView, title: BTTitle.title(title), items: items)
     }
